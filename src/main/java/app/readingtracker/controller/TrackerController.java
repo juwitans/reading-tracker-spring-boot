@@ -17,7 +17,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping(path = "api/tracker")
+@RequestMapping(path = "/api/tracker")
 public class TrackerController {
     private final TrackerService trackerService;
 

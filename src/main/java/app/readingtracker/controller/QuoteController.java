@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping(path = "api/quotes")
+@RequestMapping(path = "/api/quotes")
 public class QuoteController {
     private final QuoteService quoteService;
 

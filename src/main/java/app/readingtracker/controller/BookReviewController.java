@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping(path = "api/reviews")
+@RequestMapping(path = "/api/reviews")
 public class BookReviewController {
     private final BookReviewService bookReviewService;
 
